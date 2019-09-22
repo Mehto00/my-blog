@@ -1,6 +1,7 @@
 ---
 title: "Komentokehotteen komennot osa 2"
 date: "2017-11-23"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1511437595976{padding-top: 32px !important;padding-bottom: 32px !important;}"\]Tässäpä nyt luettavaksi teksti "Komentokehotteen komennot osa 2", joka kertoo päivittäisiä tiedostojen luomista muokkaamista, kopiointia ja poistamista käsittelevistä komentokehoitteen komennoista.

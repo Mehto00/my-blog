@@ -1,6 +1,7 @@
 ---
 title: "Komentokehotteen komennot osa 1"
 date: "2017-10-26"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1511437560494{padding-top: 32px !important;padding-bottom: 32px !important;}"\]Tämä teksti käsittelee komentokehoitteen komentoja, joita käytetään komentokehotteella navigoimiseen ja erillaisen informaation tulostamiseen päivittäisen työskentelyn helpottamiseksi.

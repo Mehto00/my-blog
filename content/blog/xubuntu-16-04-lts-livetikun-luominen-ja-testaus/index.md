@@ -1,6 +1,7 @@
 ---
 title: "Xubuntu 16.04 LTS -livetikun luominen ja testaus Lenovo x121e -läppärillä"
 date: "2017-08-27"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1504295470462{padding-top: 16px !important;padding-bottom: 32px !important;}"\]Livetikulla tarkoitetaan yleisesti asennuslevynä käytettävää muistitikkua, jolla käyttäjä voi ajaa tikulle valitsemaansa käyttöjärjestelmää tietokoneessa "livenä", ilman että käyttöjärjestelmää on etukäteen tarvinnut asentaa kyseiselle koneelle.

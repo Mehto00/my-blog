@@ -1,6 +1,7 @@
 ---
 title: "Messuraportti 26.-27. 9: Cyber Security Nordic / Kiinteistö-tapahtuma / FinnSec"
 date: "2017-10-02"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1506970691309{padding-top: 32px !important;padding-bottom: 32px !important;}"\]Helsingin Messukeskuksessa järjestettiin 26.-27. 9. ensimmäistä kertaa [Cyber Security Nordic](http://cybersecuritynordic.messukeskus.com/) -tapahtuma. Kaksipäiväisessä kyberturvallisuuteen keskittyvässä tapahtumassa oli mukana useita näytteilleasettajia sekä eri puhujia messuilla annettujen luentojen ja messujen yhteydessä pidetyn erillisen, maksullisen seminaarin muodossa. Messukeskuksen näytteilleasennustilaa täydensi lisäksi samaan aikaan kiinteistönhoidon ja korjausrakentamisen ammattilaisille järjestetty [Kiinteistö-tapahtuma](http://kiinteisto.messukeskus.com/), sekä Pohjoismaiden suurin turvallisuusalan tapahtuma [FinnSec](http://finnsec.messukeskus.com/).

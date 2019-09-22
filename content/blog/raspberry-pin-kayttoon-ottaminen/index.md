@@ -1,6 +1,7 @@
 ---
 title: "Raspberry Pi:n käyttöön ottaminen"
 date: "2017-09-14"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1513515985155{padding-top: 32px !important;padding-bottom: 32px !important;}"\]

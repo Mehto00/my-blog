@@ -1,6 +1,7 @@
 ---
 title: "Virtuaalipalvelimen käyttöönotto ja konfigurointi"
 date: "2017-09-28"
+featuredImage: ./Zebra-small.jpg
 ---
 
 Tämä teksti on luotu ohjeeksi Ubuntu 16.04 virtuaalipalvelimen luomiselle ja käyttöönotolle DigitalOceanin pilvi- ja hostingpalvelussa

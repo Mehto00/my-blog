@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-              <Img fluid={featuredImgFluid} style={{height: "300px"}}/>
+            <Img fluid={featuredImgFluid} style={{ height: "250px" }} />
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -103,7 +103,7 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxHeight: 300) {
               ...GatsbyImageSharpFluid
             }
           }

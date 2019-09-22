@@ -1,6 +1,7 @@
 ---
 title: "Syksyn opinnot: Linux palvelimet ict4tn021"
 date: "2017-08-24"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text\]Syksy lähti käyntiin opiskelujen osalta [Haaga-Helian Tietojenkäsittelyn koulutusohjelmassa](http://www.haaga-helia.fi/fi/koulutus/ammattikorkeakoulututkinnot/tietojenkasittelyn-koulutus-tradenomi-amk) Tero Karvisen viiden opintopisteen [Linux palvelimet -kurssilla](http://terokarvinen.com/2017/aikataulu-linux-palvelimet-ict4tn021-4-ti-ja-5-to-alkusyksy-2017-5-op). Kurssin oppimistavoitteena on, että sen suoritettuaan opiskelija

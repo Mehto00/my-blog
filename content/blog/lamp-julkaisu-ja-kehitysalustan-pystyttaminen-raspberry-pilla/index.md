@@ -1,6 +1,7 @@
 ---
 title: "LAMP – julkaisu- ja kehitysalustan pystyttäminen Raspberry Pi:llä"
 date: "2017-09-16"
+featuredImage: ./Zebra-small.jpg
 ---
 
 \[vc\_row row\_type="row" use\_row\_as\_full\_screen\_section="no" type="full\_width" angled\_section="no" text\_align="left" background\_image\_as\_pattern="without\_pattern" css\_animation=""\]\[vc\_column\]\[vc\_column\_text css=".vc\_custom\_1505898063516{padding-top: 32px !important;padding-bottom: 32px !important;}"\]LAMP on kokoelma avoimen lähdekoodin ohjelmia, jotka yhdessä muodostavat WWW-palvelimen, jonka alla voidaan suorittaa dynaamisia websivuja[¹](https://fi.wikipedia.org/wiki/LAMP). Kirjain lyhenne LAMP muodostuu sanoista Linux, Apache, MySQL/MariaDB, PHP/Python/Pearl.
