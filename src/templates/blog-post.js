@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-          <Img fluid={featuredImgFluid} />
+              <Img fluid={featuredImgFluid} style={{height: "300px"}}/>
             <h1
               style={{
                 marginTop: rhythm(1),
