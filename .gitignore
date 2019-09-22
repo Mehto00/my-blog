@@ -70,6 +70,6 @@ yarn-error.log
 
 
 # Ignore images in content folder
-/content/**/*.jpg
-/content/**/*.jpeg
-/content/**/*.png
+# /content/**/*.jpg
+# /content/**/*.jpeg
+# /content/**/*.png
