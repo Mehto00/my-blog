@@ -44,7 +44,7 @@ const BioFi = () => {
         position: `relative`
       }}
     >
-      <Image
+      {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
@@ -59,7 +59,7 @@ const BioFi = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
+      /> */}
       <p>
         Moi! Minä olen <strong>Mikko</strong> ja olen ammatiltani koodari. Asun Helsingissä.
         <br />
