@@ -1,15 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Bio from "../components/bio"
+import BioFi from "../components/bioFi"
+import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
+    const fiPath = `${__PATH_PREFIX__}/tags/fi/`
+    const enPath = `${__PATH_PREFIX__}/tags/en/`
     let header
 
-    if (location.pathname === rootPath) {
+    if (
+      location.pathname === rootPath ||
+      location.pathname === fiPath ||
+      location.pathname === enPath
+    ) {
       header = (
         <h1
           style={{
@@ -61,6 +70,14 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
+        <div style={{textAlign: "center", marginBottom: "1rem"}}>
+          <Link to={"/tags/fi/"}>Suomeksi</Link>
+          <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>/</strong></span>
+          <Link to={"/tags/en/"}>English</Link>
+        </div>
+        <SEO title="All posts" />
+        {(location.pathname === rootPath || location.pathname === enPath) ? <Bio /> : ""}
+        {(location.pathname === fiPath) ? <BioFi /> : ""}
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with

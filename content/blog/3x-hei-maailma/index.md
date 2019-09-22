@@ -3,6 +3,7 @@ title: "3x Hei Maailma"
 date: "2017-10-09"
 description: "Hello World on yksinkertainen testi, jolla ohjelmoija kykenee helposti varmentaan oman kehitysympäristön toimivuus."
 featuredImage: ./Zebra-small.jpg
+tags: ["fi", "Hello World", "Java"]
 ---
 
 Hello World on yksinkertainen testi, jolla ohjelmoija kykenee helposti varmentaan oman kehitysympäristön toimivuus. Konventio termin "Hello World" käyttöstä yleistyi nopeasti tällaisten pienten varmistusten yhteydessä ohjelmoinnin merkkiteoksen \_[The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language) - _julkaisun myötä vuonna 1978.
