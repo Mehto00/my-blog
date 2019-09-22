@@ -61,7 +61,7 @@ const BioFi = () => {
         }}
       />
       <p>
-        Moi! Olen <strong>Mikko</strong> ja toimin koodarina. Asun Helsingissä.
+        Moi! Minä olen <strong>Mikko</strong> ja olen ammatiltani koodari. Asun Helsingissä.
         <br />
         <br />
         Before coding I was a graphic designer. Back then I used to work a lot
