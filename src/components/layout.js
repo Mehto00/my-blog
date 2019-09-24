@@ -72,7 +72,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <div style={{textAlign: "center", marginBottom: "1rem"}}>
           <Link to={"/tags/fi/"}>Suomeksi</Link>
-          <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>/</strong></span>
+          <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>|</strong></span>
           <Link to={"/tags/en/"}>English</Link>
         </div>
         <SEO title="All posts" />
