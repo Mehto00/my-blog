@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import BioFi from "../components/bioFi"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
@@ -11,6 +12,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const tags = post.frontmatter.tags
     let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
     const { previous, next } = this.props.pageContext
 
@@ -48,7 +50,7 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <footer>
-            <Bio />
+            {tags.indexOf("fi") ? <Bio /> : <BioFi />}
           </footer>
         </article>
 
@@ -108,6 +110,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        tags
       }
     }
   }
