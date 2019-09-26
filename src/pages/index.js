@@ -52,7 +52,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { published: { eq: true } } }
+      sort: { fields: [frontmatter___date] order: DESC }, 
+      ) {
       edges {
         node {
           excerpt
@@ -63,6 +66,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            published
           }
         }
       }
