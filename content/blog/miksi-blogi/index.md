@@ -3,8 +3,8 @@ title: Miksi blogi? (taas)
 date: "2019-09-25"
 description: "Blogin tekeminen on paitsi yksittäisten postausten kirjoittamista myös jatkuva oppimisen prosessi"
 featuredImage: "./500x300.jpg"
-tags: ["fi"]
-published: false
+tags: ["fi", "Gatsby", "Wordpress"]
+published: true
 ---
 
 ##Oikea blogi tällä kertaa
@@ -28,10 +28,15 @@ Tässä vaiheessa blogin pitämisen pullonkaulaksi muodostui yhä kirjoitusten l
 - mitkä ovat suurimmat esteet blogin pitämiselle 
 - ja millaisella kokoonpanolla pystyn onnistumaan
 
-Haluan edelleen pitää blogia, koska se on loistava tapa oppia uutta. Olen aina ollut keskinkertainen kirjoittaja. Kuukausittainen tai viikoittainen kirjoittaminen pakottaa harjoittelemaan ja pitämään taitoa yllä. Oman ammattin asioihin liittyvä blogi on tietenkin myös keino mainostaa omaa ammatillista osaamista. 
+Haluan edelleen pitää blogia, koska se on loistava tapa oppia uutta. Olen aina ollut keskinkertainen kirjoittaja. Kuukausittainen tai viikoittainen kirjoittaminen pakottaa harjoittelemaan ja pitämään taitoa yllä. Oman ammattin asioihin liittyvä blogi on tietenkin myös keino mainostaa omaa ammatillista osaamista. Ja kuten jo aiemmin sanoin kirjoittamisen lisäksi blogin tekemiseen liittyy taustalla valtavat määrät asioita hakukoneoptimoinneista yleiseen sivujen hallintaan, josta on omassa ammatissa vain hyvä tietää. Koodaaminen on tärkeää, mutta yhtä lailla se mihin kasaan kyhätty tuotos lopulta päätyy ja miten se tapahtuu on äärettömän mielenkiintoista ja tärkeää-
 
-Postausten laatiminen pois verkkoselaimesta. Tyylittelyihin valta. Julkaisut helpoiksi ja nopeiksi.
+Suurimmaksi esteeksi oman blogin pitämiselle muodostui Wordpress. Tekniikat jolla wordpressiä tehdään ovat liian kaukana omasta päivittäisestä tekemisestäni, että oma ammattitaito auttaisi asiaa ja toisaalta minulla ei ole mitään kannustimia alkaa opetella koodipuolen asioita, jotka eivät edes välillisesti tunnu hyödyntävän arjen työskentelyssä. Ja kuten jo aiemmin mainitsin halusin siirtää postausten laatiminen ja tyylittelyn pois verkkoselaimesta. Vanhalla tyylillä yksittäisen blogipostauksen tekeminen oli aivan liian aikaa vievää eikä lopputulos monestikaan miellyttänyt silmää. Kun pääsen tekemään asiat tekstieditorissa laatimisen nopeus kasvaa ja toisaalta tyylittelyjen erittely antaa mahdollisuuden käyttää omaa osaamista koko kapasiteetilla eikä kompromisseihin tarvitse samalla tavalla ryhtyä. 
 
-Työ, Gatsby, markdown.
+Aloitin kesäkuussa uudessa työpaikassa jossa koodailen Frond End developerin roolissa tätä kirjoittaessa vielä julkaisematonta verkkokauppaa. Verkkokaupan sivut toteutetaan Gatsbyllä joka on Reactiin pohjaava framework jonka pohjaideana on luoda nopeita verkkosivu- ja sovellus-ratkaisuja. <a href="https://www.gatsbyjs.org/features/" target="_blank">Gatsby</a> toimii eräänlaisena mallinnusalustana _(vrt. template engine)_ datalle, josta pysytään nopeasti pyöräyttämään staattisia sivuja selaimen välimuistiin. Tämä tuo huimaa nopeutta. 
 
-dns, näkyvyys googlelle, wordpress ja miksi se ei sopinyt minulle. Nykytilanne, koodaamaan oppiminen, Gatsby,nopeus. Tulevat postailut
+Verkkokaupaun data tarjoillaan APIen kautta, mutta Gatsby ei tässä suhteessa ole nirso. Tänä päivänä netissä näkee kirjoitettavan 
+paljon <a href="https://en.wikipedia.org/wiki/Headless_content_management_system" target="_blank">Headless CMS</a>:ästä, jossa Content Management System, CMS erotetaan sivun ulkoasun toteutuksesta omaksi erilliseksi ratkaisuksi. Harkitsin ensiksi tätä ratkaisua wordpressin eriyttämiseksi ulkoasun toteuttamisesta. Mutta data voi myös olla esimerkiksi Markdown-muotoisia tekstitiedostoja aivan kuin tässä nykyisessä blogissanikin. Niinpä nyt toistaiseksi tyydyn tähän ratkaisuun. Postaukset voi kirjoittaa nopeasti ylös ja julkaista puskemalla muutokset vain committeina <a href="https://github.com/Mehto00/my-blog" target="_blank">Githubissa</a> sijaitsevaan repoon. Netlifyn workflow pitää huolen, että muutokset siirtyvät automaagisesti sivustolle näkyville. 
+
+Tästäpä pitkä ja rönsyilevä teksti tämän blogin olemassa olon taustoista. Jatkossa aiheita blogipostauksille riittää. Olen koodarina harva se päivä uuden äärellä ja haluan kirjoittaa omia havaintojani julkia ja samalla kerätä itselleni ulkoistettua muistia asioista jota on tullut tehtyä. Ainakin Gatsbystä tulen kirjoittamaan jatkossakin. Tämän lisäksi ainakin tämän kirjoituksen pohjalta wordpressin CLI versio ja wp-projeksissa fronttipuolen eriyttämisestä headless cms:sää ajatellen vaikuttaa asialta jota pitää tutkia jatkossakin. 
+
+Loppuun pyhä lupaus. Yritän kirjoittaa kerran viikkoon vähintään jotain. Mikäli jouluun mennessä tämä lupaus ei ole pitänyt tai olen lipsunut siitä turhan usein annan itselleni luvan säätää mahdollista julkaisutahtia uudestaan.
