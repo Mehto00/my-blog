@@ -13,7 +13,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const tags = post.frontmatter.tags
-    let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+    let featuredImgFluid = post.frontmatter.featuredImage
     const { previous, next } = this.props.pageContext
 
     return (
@@ -24,7 +24,7 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-            <Img fluid={featuredImgFluid} style={{ height: "250px" }} />
+            {featuredImgFluid ? <Img sizes={featuredImgFluid.childImageSharp.fluid} style={{ height: "250px" }}/> : null}
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -104,8 +104,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         featuredImage {
+          publicURL
           childImageSharp {
-            fluid(maxHeight: 300) {
+            fluid(maxHeight: 250) {
               ...GatsbyImageSharpFluid
             }
           }
