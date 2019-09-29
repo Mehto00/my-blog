@@ -4,9 +4,7 @@ import PropTypes from "prop-types";
 // Components
 import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
 
 class Tags extends Component {

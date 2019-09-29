@@ -3,7 +3,7 @@ title: Hello World
 date: "2019-09-22"
 description: "Hello World"
 featuredImage: "./500x300.jpg"
-tags: ["fi", "en"]
+tags: ["en"]
 published: true
 ---
 
