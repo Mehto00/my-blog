@@ -2,7 +2,6 @@
 title: Miksi blogi? (taas)
 date: "2019-09-25"
 description: "Blogin tekeminen on paitsi yksittäisten postausten kirjoittamista myös jatkuva oppimisen prosessi"
-featuredImage: none
 tags: ["fi", "Gatsby", "Wordpress"]
 published: true
 ---
