@@ -2,7 +2,6 @@
 title: Git reflog - A Hidden gem of git 
 date: "2019-09-29"
 description: "Git reflog is a handy command i managed to stumbled among not that long ago"
-featuredImage: none
 tags: ["en"]
 published: false
 ---

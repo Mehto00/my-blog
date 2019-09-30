@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import BioFi from "../components/bioFi"
 import Layout from "../components/layout"
-import Img from "gatsby-image"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
@@ -13,9 +12,8 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const tags = post.frontmatter.tags
-    let featuredImgFluid = post.frontmatter.featuredImage
+    let featuredImage = post.frontmatter.featuredImage
     const { previous, next } = this.props.pageContext
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -24,7 +22,7 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-            {featuredImgFluid ? <Img sizes={featuredImgFluid.childImageSharp.fluid} style={{ height: "250px" }}/> : null}
+            {(featuredImage && featuredImage !== false) && <img src={post.frontmatter.featuredImage.publicUrl} alt="Blogpost Header image" style={{ height: "250px"}}/>}
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -72,7 +70,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </li>
             <li>
-              {next && (
+              {(next && next.frontmatter.published !== false) && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
@@ -103,6 +101,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        published
         featuredImage 
         tags
       }
