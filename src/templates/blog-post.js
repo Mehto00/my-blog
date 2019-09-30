@@ -22,7 +22,13 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-            {(featuredImage && featuredImage !== false) && <img src={post.frontmatter.featuredImage.publicUrl} alt="Blogpost Header image" style={{ height: "250px"}}/>}
+            {featuredImage && featuredImage !== false && (
+              <img
+                src={post.frontmatter.featuredImage.publicURL}
+                alt="Blogpost Header"
+                style={{ height: "250px" }}
+              />
+            )}
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -47,9 +53,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          <footer>
-            {tags.indexOf("fi") ? <Bio /> : <BioFi />}
-          </footer>
+          <footer>{tags.indexOf("fi") ? <Bio /> : <BioFi />}</footer>
         </article>
 
         <nav>
@@ -70,7 +74,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </li>
             <li>
-              {(next && next.frontmatter.published !== false) && (
+              {next && next.frontmatter.published !== false && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
@@ -86,25 +90,26 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        published
-        featuredImage 
-        tags
-      }
+query BlogPostBySlug($slug: String!) {
+  site {
+    siteMetadata {
+      title
+      author
     }
   }
+  markdownRemark(fields: { slug: { eq: $slug } }) {
+    id
+    excerpt(pruneLength: 160)
+    html
+    frontmatter {
+      title
+      date(formatString: "MMMM DD, YYYY")
+      description
+      featuredImage {
+        publicURL
+      }
+      tags
+    }
+  }
+}
 `
