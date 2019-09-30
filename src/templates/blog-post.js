@@ -12,7 +12,6 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const tags = post.frontmatter.tags
-    let featuredImage = post.frontmatter.featuredImage
     const { previous, next } = this.props.pageContext
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,13 +21,6 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-            {featuredImage && featuredImage !== false && (
-              <img
-                src={post.frontmatter.featuredImage.publicURL}
-                alt="Blogpost Header"
-                style={{ height: "250px" }}
-              />
-            )}
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -105,9 +97,6 @@ query BlogPostBySlug($slug: String!) {
       title
       date(formatString: "MMMM DD, YYYY")
       description
-      featuredImage {
-        publicURL
-      }
       tags
     }
   }

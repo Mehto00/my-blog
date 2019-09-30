@@ -3,7 +3,6 @@ title: Hello World
 date: "2019-09-22"
 description: "Hello World"
 tags: ["en"]
-featuredImage: ""
 published: true
 ---
 
