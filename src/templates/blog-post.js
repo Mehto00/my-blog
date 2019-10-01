@@ -33,11 +33,16 @@ class BlogPostTemplate extends React.Component {
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
-                marginBottom: rhythm(1),
+                margin: "1rem 0 0.5rem"
               }}
             >
               {post.frontmatter.date}
             </p>
+            <ul style={{...scale(-1 / 5), listStyle: "none", marginBottom:"1rem"}}>tags:&nbsp; 
+              {post.frontmatter.tags.map(item => {
+                return <li style={{ display: "inline" }}>{item} / </li>
+              })}
+            </ul>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
@@ -82,23 +87,23 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-query BlogPostBySlug($slug: String!) {
-  site {
-    siteMetadata {
-      title
-      author
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
+        tags
+      }
     }
   }
-  markdownRemark(fields: { slug: { eq: $slug } }) {
-    id
-    excerpt(pruneLength: 160)
-    html
-    frontmatter {
-      title
-      date(formatString: "MMMM DD, YYYY")
-      description
-      tags
-    }
-  }
-}
 `
