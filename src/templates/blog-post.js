@@ -39,8 +39,8 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
             <ul style={{...scale(-1 / 5), listStyle: "none", marginBottom:"1rem"}}>tags:&nbsp; 
-              {post.frontmatter.tags.map(item => {
-                return <li style={{ display: "inline" }}>{item} / </li>
+              {post.frontmatter.tags.map(item, index => {
+                return <li key={index} style={{ display: "inline" }}>{item} / </li>
               })}
             </ul>
           </header>
