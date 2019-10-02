@@ -19,6 +19,7 @@ class Tags extends Component {
     return (
       <div>
         <Layout location={this.props.location} title={siteTitle}>
+          <p style={{fontWeight:"bold", margin:"0"}}><em>{tagHeader}</em></p>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug;
             return (
@@ -37,6 +38,11 @@ class Tags extends Component {
                     </Link>
                   </h3>
                   <small>{node.frontmatter.date}</small>
+                  <ul style={{listStyle: "none", marginBottom:"1rem"}}>tags:&nbsp; 
+                    {node.frontmatter.tags.map((item, index) => {
+                      return <li key={index} style={{ display: "inline" }}>{item} / </li>
+                    })}
+                  </ul>
                 </header>
                 <section>
                   <p
@@ -101,6 +107,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
