@@ -6,11 +6,13 @@ tags: ["en", "Gatsby", "Wordpress"]
 published: false
 ---
 
-##Oikea blogi tällä kertaa
+##Real blog this time 
 
-Viimeisen viiden vuoden aikana olen aloittanut blogin tekemisen laskentatavasta riippuen kolme tai neljä kertaa. Tämä viimeisin tähtää olemaan "oikea" blogi kirjoituksineen kaikkineen. Aiemmat versiot ovat olleet sisällön puolesta lähinnä omien visuaalisten tuotosten esittelyä. Jokaista yksittäistä blogiprojektia on yhdistänyt taustalla kuitenkin yksi iso asia. Sivujen tekemisen motiivina ei missään vaiheessa ole ollut vain saada digitaalinen käyntikortti verkkoon. Tekemistä on ohjannut enemmänkin halu oppia itselle hyödyllisiä uusia asioita ja vahva käsitys siitä, että asioita oppii lopulta vain tekemällä. 
+For the past five years I have being starting blog project about three or four time. This last one tries to be a "real" blog with posts and all. Earlier ones have being more about displaying my visual works. Behind every blog projects there has being a big common denominator. For me motivation to write blogs has never being just to get a digital reference online, but more about learning useful new things. And as they say you learn by living.
 
->Viidessä vuodessa on syntynyt vain vähän blogia, mutta paljon oppia. 
+>In five years I wrote only handfull of blog posts, but learned a heck of a lot
+
+
 
 Viidessä vuodessa on syntynyt vain vähän blogia, mutta paljon oppia. Ensimmäinen versio blogista oli webbihotellin päälle syntynyt wordpress -sivu. Tutuksi tulivat domainin ja webbihotellin hankinnat, konfigurointi sekä wordpressin hallinta ja ulkoasujen räätälöinti. Tämän lisäksi sain ensimmäisen kosketuksen siitä miten sivut saadaan näkyviin Googlelle ja kuinka kävijätietoja saadaan analytiikkan piiriin. 
 
