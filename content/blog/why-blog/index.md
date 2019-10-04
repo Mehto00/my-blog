@@ -10,9 +10,9 @@ published: false
 
 For the past five years I have being starting blog project about three or four time. This last one tries to be a "real" blog with posts and all. Earlier ones have being more about displaying my visual works. Behind every blog projects there has being a big common denominator. For me motivation to write blogs has never being just to get a digital reference online, but more about learning useful new things. And as they say you learn by living.
 
->In five years I wrote only handfull of blog posts, but learned a heck of a lot
+>In five years I wrote only a handfull of blog posts, but learned a heck of a lot
 
-
+In the past five years I wrote only a handfull of blog posts, but learned a heck of a lot. The first blog was a wordpress page on a hosting service. With that project I learned a lot about handling domains and hosting service, wordpres configurations and it's themes. And also a great deal about how websites can be exposed to Google and how to use their analytics tools.
 
 Viidessä vuodessa on syntynyt vain vähän blogia, mutta paljon oppia. Ensimmäinen versio blogista oli webbihotellin päälle syntynyt wordpress -sivu. Tutuksi tulivat domainin ja webbihotellin hankinnat, konfigurointi sekä wordpressin hallinta ja ulkoasujen räätälöinti. Tämän lisäksi sain ensimmäisen kosketuksen siitä miten sivut saadaan näkyviin Googlelle ja kuinka kävijätietoja saadaan analytiikkan piiriin. 
 
