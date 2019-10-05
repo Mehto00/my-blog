@@ -37,7 +37,7 @@ As I mentioned at the start of this post I'm still learning my ways around with 
 
 The command provides a quick and helpful view to take a glance at when something has went south and then return to that point and start all over again. So lets say I pulled a `git reflog`and get prompted something like this: _(hox, this isn't the the same reflog I'm refering to, but just an example)_
 
-```bash
+```bash{7}{numberLines: false}
 c5a929d (HEAD -> development) HEAD@{0}: commit: Minor polishing to tag links
 ec1a2cd (origin/master, origin/development, master) HEAD@{1}: checkout: moving from master to development
 ec1a2cd (origin/master, origin/development, master) HEAD@{2}: merge development: Fast-forward
