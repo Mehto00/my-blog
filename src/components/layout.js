@@ -8,7 +8,7 @@ import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, subtitle, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const fiPath = `${__PATH_PREFIX__}/tags/fi/`
     const enPath = `${__PATH_PREFIX__}/tags/en/`
@@ -36,6 +36,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+            <span style={{display:"block", fontSize:"1.6rem", marginTop:"0", lineHeight:"1.3rem"}}>{subtitle}</span>
           </Link>
         </h1>
       )
@@ -56,6 +57,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+            <span style={{display:"block", fontSize:"1.1rem", marginTop:"0", lineHeight:"1.6rem"}}>{subtitle}</span>
           </Link>
         </h3>
       )

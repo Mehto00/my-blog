@@ -15,10 +15,11 @@ class Tags extends Component {
       totalCount === 1 ? "" : "s"
     } tagged with "${tag}"`;
     const siteTitle = this.props.data.site.siteMetadata.title;
+    const siteSubTitle = this.props.data.site.siteMetadata.subtitle;
     const posts = this.props.data.allMarkdownRemark.edges;
     return (
       <div>
-        <Layout location={this.props.location} title={siteTitle}>
+        <Layout location={this.props.location} title={siteTitle} subtitle={siteSubTitle}>
           <p style={{fontWeight:"bold", margin:"0"}}><em>{tagHeader}</em></p>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug;
@@ -90,6 +91,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        subtitle
       }
     }
     allMarkdownRemark(

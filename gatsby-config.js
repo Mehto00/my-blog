@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Mikko Metso Portfolio / Here's some of my works!`,
+    title: `Mikko Metso`,
+    subtitle: `I'm a coder, this is my blog`,
     author: `Mikko Metso`,
     description: `I'm a web developer living in Helsinki.`,
     siteUrl: `http://www.mikkometso.com`,
