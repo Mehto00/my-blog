@@ -1,9 +1,9 @@
 ---
 title: "Learning to build a React Native App: The Motivation"
 date: "2019-10-08"
-description: "I decided that I'm going to learn to build a React Native App. Here's why. "
+description: "On one Sunday I decided that I'm going to learn to build a React Native App. Here's why. "
 tags: ["en", "React Native", "Learning to build a React Native App"]
-published: false
+published: true
 ---
 
 ## Start with Why
@@ -23,8 +23,6 @@ The next day when I was commuting to work on a buss watching the newly purchased
 
 ## What happens next
 
-Well that's a good question. I think I want to make a proper plan that can be then executed. I have the idea and some visuals already so I get them documented and then see what the _minimum viable product_ would be. After that it should be fairly easy. Just code.
+Well that's a good question. I think I want to make a proper plan that can then be executed. I have the idea and some visuals already existing so I get them documented and then see what the _minimum viable product_ would be. After that it should be fairly easy. Just code. The documentation will be at least first stored with the code repository. And yeah, this is a learning project that I'm going to use as a reference on what I have done so of course all the source code should be accessable via internet. There for it's only logical (all hail Spock) that the repository will be located at my <a href="https://github.com/mehto00/" target="_blank">Github-profile</a>. I'm still sticking with my original publishing schedule of at least one post per week so maybe many of the post in the coming weeks wil have React Native as a topic. 
 
-Repon tekeminen, dokumentaation kerääminen sinne. Alustava aikataulutus. Mahdollisia aiheita seuraaville blogeille. 
-
-Lisää github profiilin linkki sivuille
+The end of the year is a bit hectic at work so I can not honestly say if I have the time or the energy to get stuff done by then. But as a driving force I want to set myself some sort of goals and one of them should be that the documentation and a blog post about it should be ready at the end of this month. Maybe for learning and execution I will allocate 3 months so that there should be something ready at the end of the January. But this can change depending on various things. After the following few weeks I will be wiser and can have a propper estimate about the schedule.
