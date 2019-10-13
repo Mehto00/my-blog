@@ -3,7 +3,7 @@ module.exports = {
     title: `Mikko Metso`,
     subtitle: `I'm a coder, this is my blog`,
     author: `Mikko Metso`,
-    description: `I'm a web developer living in Helsinki.`,
+    description: `I'm a web developer living in Helsinki. Here's my blog about things I find interesting`,
     siteUrl: `http://www.mikkometso.com`,
     social: {
       twitter: `MikkoMetso`,
@@ -17,12 +17,6 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    `gatsby-plugin-feed`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,6 +31,13 @@ module.exports = {
         name: `assets`,
       },
     },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -57,12 +58,6 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     {
