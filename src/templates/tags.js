@@ -10,7 +10,7 @@ import { rhythm } from "../utils/typography";
 class Tags extends Component {
   render() {
     const { tag } = this.props.pageContext;
-    const { edges, totalCount } = this.props.data.allMarkdownRemark;
+    const { totalCount } = this.props.data.allMarkdownRemark;
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
     } tagged with "${tag}"`;

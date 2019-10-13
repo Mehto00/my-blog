@@ -73,9 +73,9 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <div style={{textAlign: "center", marginBottom: "1rem"}}>
-          <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/en/"}>🇬🇧 English</Link>
-          <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>/</strong></span>
-          <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/fi/"}>🇫🇮 Suomeksi</Link>
+          <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/en/"}><span role="img" aria-label="Flag of England">🇬🇧</span> English</Link>
+          <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>/</strong></span> 
+          <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/fi/"}><span role="img" aria-label="Flag of Finland">🇫🇮</span> Suomeksi</Link>
         </div>
         <SEO title="All posts" />
         {(location.pathname === rootPath || location.pathname === enPath) ? <Bio /> : ""}

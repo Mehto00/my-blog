@@ -73,7 +73,7 @@ const BioFi = () => {
         <br />
         <br />
         Tänä päivänä työskentelen Frond Endin parissa avainsanoina teknologiat
-        niin kuin React, Redux, Gatsby and GraphQL.
+        kuten React, Redux, Gatsby and GraphQL.
         {` `}
         <br />
         <br />
