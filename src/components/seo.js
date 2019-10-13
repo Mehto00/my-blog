@@ -17,7 +17,6 @@ function SEO({ description, lang, meta, title }) {
         site {
           siteMetadata {
             title
-            subtitle
             description
             author
           }
@@ -53,19 +52,19 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
-          name: `twitter:card`,
+          name: `og:card`,
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
+          name: `og:creator`,
           content: site.siteMetadata.author,
         },
         {
-          name: `twitter:title`,
+          name: `og:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: `og:description`,
           content: metaDescription,
         },
       ].concat(meta)}
