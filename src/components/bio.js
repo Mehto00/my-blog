@@ -27,6 +27,7 @@ const Bio = () => {
           social {
             twitter
             linkedin
+            github
           }
         }
       }
@@ -78,7 +79,7 @@ const Bio = () => {
         <span style={{display: "block", paddingRight: "5rem"}}>
         For more <em>Curriculum vitae</em> :ish information check out my{" "}
         <a href={`https://linkedin.com/in/${social.linkedin}`}>Linkedin</a>{" "}
-        profile
+        profile. You can also find my coding profile from <a href={`https://github.com/${social.github}`} target="_blank">GitHub</a>.
         </span>
       </p>
     </div>

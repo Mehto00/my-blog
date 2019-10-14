@@ -27,6 +27,7 @@ const BioFi = () => {
           social {
             twitter
             linkedin
+            github
           }
         }
       }
@@ -74,13 +75,13 @@ const BioFi = () => {
         <br />
         Tänä päivänä työskentelen Frond Endin parissa avainsanoina teknologiat
         kuten React, Redux, Gatsby and GraphQL.
-        {` `}
         <br />
         <br />
         <span style={{ display: "block", paddingRight: "5rem" }}>
           Tarkempia tietoja työurastani <em>Curriculum vitae</em> :n muodossa voit lukea {" "}
-          <a href={`https://linkedin.com/in/${social.linkedin}`}>Linkedin</a>{" "}
-          profiilistani. 
+          <a href={`https://linkedin.com/in/${social.linkedin}`} target="_blank">Linkedin</a>{" "}
+          profiilistani.
+          <br />Koodipuolen jutut löytyvät puolestaan <a href={`https://github.com/${social.github}`} target="_blank">GitHubista</a>.
         </span>
       </p>
     </div>
