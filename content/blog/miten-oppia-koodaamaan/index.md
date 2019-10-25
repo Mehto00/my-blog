@@ -1,7 +1,7 @@
 ---
 title: "Miten oppia koodaamaan"
-date: "2019-09-22"
-description: "Ajatuksenjuoksua siitä miten itse opin koodariksi muutamassa vuodessa"
+date: "2019-09-24"
+description: "Ajatuksia siitä miten itse opin koodariksi muutamassa vuodessa"
 tags: ["fi"]
 published: false
 ---
@@ -19,11 +19,14 @@ Espoo kouluttaa 40 työtöntä koodareiksi
 Palkka jopa 5000–7000 e/kk ja kysyntää riittää – Tee testi: olisiko sinusta koodariksi?
 9.6.2018 12:00 Ohjelmistoalalla olisi heti töitä 7 000–9 000 uudelle työntekijälle.
 
-Tuossapa nopsaan haettu otanta IltaSanomien koodialan työllisyyttä ja palkkaa koskevia höpöotsikoita. Ne kaikki julistavat samaa. Töitä riittää ja palkkaus on hyvä. Mutta onko klikkijournalistit näiden täytepalojensa kanssa oikeassa?
+Yllä suppea otanta IltaSanomien koodialan työllisyyttä ja palkkaa koskevia höpöotsikoita. Ne kaikki julistavat samaa. Töitä riittää ja palkkaus on hyvä. Mutta onko klikkijournalistit näiden täytepalojensa kanssa oikeassa?
 
-Koodareita on ollut olemassa jo pitkään, mutta viime aikojen teknologinen kehitys on luonut valtavan kysynnän eri tasoisille koodiosaajille. Digitalisaatio on muokannut viimeisen 10-15 vuoden aikana eri toimialoja radikaalisti ja samalla avannut niille aivan uusia tapoja luoda ja toteuttaa liiketoimintaa. 
+Koodareita on ollut olemassa jo pitkään, mutta viime aikojen teknologinen kehitys on luonut valtavan kysynnän eri tasoisille koodiosaajille. Digitalisaatio on muokannut viimeisen 10-15 vuoden aikana eri toimialoja radikaalisti ja samalla avannut niille aivan uusia tapoja luoda ja toteuttaa liiketoimintaa. Tästä johtuen myös tarve uudenlaiselle osaavalle työvoimalle on kasvanut huomattavasti. Hyvä esimerkki tästä on jäänyt mieleen kun aloitin koodaajan töitä. Aloitin harjoittelijana 40 hengen tiimissä, jossa tiiminvetäjä kertoi tiimiä esitellessään, että kymmenen vuotta aiemmin kun hän oli aloittanut tiimin koko oli ollut neljä henkilöä. Asiakkaana tiimillä oli lentoyhtiö. Kun seuraavan kerran kävelet Suomen mittakaavalla isossa kaupungissa kadulla, tai katsot tv:stä mainoksia voit olla varma, että valtaosa vastaantulevista yhtiöistä työllistää moninkertaisesti koodiosaajia kuin kymmenen vuotta sitten.
 
-Koodari, devops, digistrategi, ux, ui
+
+Oulu enemmän tarvetta kuin Nokian huippuvuosina. (talosusanomoat.. lähde..) 
+
+Mikä on koodiosaaja? Koodari, devops, digistrategi, ux, ui
 
 Monta varmasti askarruttaa kokeilla. Mitä tarvii. Do you have to be a genious to learn reading? 
 
