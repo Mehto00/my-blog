@@ -7,20 +7,13 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import meika from "../../static/meika.jpg"
 
-import { rhythm } from "../utils/typography"
+import bioStyles from "./bio.module.css"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/meika.jpg/" }) {
-        childImageSharp {
-          fixed(width: 180, height: 180) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
       site {
         siteMetadata {
           author
@@ -37,30 +30,9 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-        backgroundColor: `#eee`,
-        padding: `2rem 4rem 2rem 2rem`,
-        position: `relative`
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-          position: `absolute`,
-          bottom:`-45px`,
-          right:`-65px`
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
+      className={bioStyles.wrapper}>
+      <img src={meika} alt={author} className={bioStyles.avatar} />
+      <div>
       <p>
         Hi! I'm <strong>Mikko</strong> and I'm a developer. I live and work in Helsinki.
         <br />
@@ -76,12 +48,13 @@ const Bio = () => {
         {` `}
         <br/>
         <br/>
-        <span style={{display: "block", paddingRight: "5rem"}}>
+        <span className={bioStyles.indentParagraph}>
         For more <em>Curriculum vitae</em> :ish information check out my{" "}
         <a href={`https://linkedin.com/in/${social.linkedin}`}>Linkedin</a>{" "}
         profile. You can also find my coding profile from <a href={`https://github.com/${social.github}`} target="_blank">GitHub</a>.
         </span>
       </p>
+      </div>
     </div>
   )
 }
