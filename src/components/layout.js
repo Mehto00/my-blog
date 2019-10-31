@@ -6,6 +6,8 @@ import BioFi from "../components/bioFi"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import layoutStyles from './layout.module.css'
+
 class Layout extends React.Component {
   render() {
     const { location, title, subtitle, children } = this.props
@@ -20,13 +22,7 @@ class Layout extends React.Component {
       location.pathname === enPath
     ) {
       header = (
-        <h1
-          style={{
-            ...scale(1.1),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
+        <h1 className={layoutStyles.heading1} >
           <Link
             style={{
               boxShadow: `none`,
@@ -36,18 +32,13 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
-            <span style={{display:"block", fontSize:"1.6rem", marginTop:"0", lineHeight:"1.3rem"}}>{subtitle}</span>
+            <span className={layoutStyles.subTitle}>{subtitle}</span>
           </Link>
         </h1>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
+        <h3 className={layoutStyles.heading3}>
           <Link
             style={{
               boxShadow: `none`,
@@ -57,7 +48,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
-            <span style={{display:"block", fontSize:"1.1rem", marginTop:"0", lineHeight:"1.6rem"}}>{subtitle}</span>
+            <span className={layoutStyles.subTitle3}>{subtitle}</span>
           </Link>
         </h3>
       )
@@ -68,11 +59,11 @@ class Layout extends React.Component {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          padding: `0 ${rhythm(3 / 4)} 4rem`,
         }}
       >
         <header>{header}</header>
-        <div style={{textAlign: "center", marginBottom: "1rem"}}>
+        <div className={layoutStyles.languages}>
           <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/en/"}><span role="img" aria-label="Flag of England">🇬🇧</span> English</Link>
           <span style={{margin: "0 20px", fontSize: "1.2rem"}}><strong>/</strong></span> 
           <Link style={{boxShadow:"none", fontSize:"1.1rem"}} to={"/tags/fi/"}><span role="img" aria-label="Flag of Finland">🇫🇮</span> Suomeksi</Link>
