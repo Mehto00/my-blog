@@ -1,0 +1,31 @@
+.languages {
+  text-align: center;
+  padding: 0rem 0 1.5rem;
+}
+
+.heading1 {
+  scale: 1.1;
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+.subTitle {
+  display: block;
+  font-size: 1.6rem;
+  margin-top: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.heading3 {
+  font-family: Montserrat,sans-serif;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+.subTitle3 {
+  display: block;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+  line-height: 1.6rem;
+}
