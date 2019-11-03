@@ -72,7 +72,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </li>
             <li>
-              {next && next.frontmatter.published !== false && (
+              {next && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
@@ -96,7 +96,8 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(
+      fields: { slug: { eq: $slug } } ) {
       id
       excerpt(pruneLength: 160)
       html
@@ -104,6 +105,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        published
         tags
       }
     }
