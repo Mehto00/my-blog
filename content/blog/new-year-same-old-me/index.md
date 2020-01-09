@@ -1,5 +1,5 @@
 ---
-title: New Year. Same old me.
+title: New Year, same old me
 date: "2020-01-09"
 description: "Quick reflection on my goals for writing a blog and how I managed"
 tags: ["en", "Blog", "reflection"]
