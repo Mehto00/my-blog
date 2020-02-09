@@ -13,7 +13,7 @@ I'm a front-end developer. So the bread and butter in my daily is to write seman
 I started this series so that I can create a easy template for me to publish some doodles that I'm used writing now and then.
 The code itself is written to awesome <a href="https://codepen.io/" target="_blank">CodePen</a> and as you can see embeded to posts like below.
 
-Here's a reference screenshot that I snapped from LinkedIn feed. Note that this is not a actual post but an edit I photoshopped to serve this example.
+Here's a reference screenshot that I snapped from LinkedIn feed. Note that this is not a actual screenshot about some post but an edit I photoshopped to serve this example.
 
 <img alt="example image" src="example.jpg" />
 <br>
