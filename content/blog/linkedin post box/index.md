@@ -1,6 +1,6 @@
 ---
 title: "Daily trainings: LinkedIn post box"
-date: "2020-02-08"
+date: "2020-02-09"
 description: "This is a continuing blog post series about all kinds of front-end training, that I do to keep up with the world"
 tags: ["css", "training", "CodePen", "flex-box"]
 published: true
