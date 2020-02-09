@@ -21,7 +21,7 @@ Here's a reference screenshot that I snapped from LinkedIn feed.
 
 And here's the embedded CodePen that I created
 
-<iframe height="420" style="width: 100%;" scrolling="no" title="Linkedin post box doodling" src="https://codepen.io/Mehto00/embed/PoqwjGq?height=349&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="520" style="width: 100%;" scrolling="no" title="Linkedin post box doodling" src="https://codepen.io/Mehto00/embed/PoqwjGq?height=349&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/Mehto00/pen/PoqwjGq'>Linkedin post box doodling</a> by Mikko Metso
   (<a href='https://codepen.io/Mehto00'>@Mehto00</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
