@@ -12,7 +12,7 @@ I have had my own domain name _mikkometso.com_ for my blog about five or six yea
 
 Firstly (like me at first) if you're not interested on setting up the custom domain from Netlify, it's still usefull and also easy to setup a human-readable url instead of the randomly generated url that Netlify provides. From Netlify dashboard you navigate to your project and choose **Site settings**. Under **Site details** you can find the button that says **Change site name**. 
 
-![Netlify Change site name view](./netlify-custom-domain.png)
+![Netlify Change site name view](./netlify-custom-domain.jpg)
 
 Pressing the button opens up a pop up that has the input field where you can feed the desirable site name, see the actual url and check if it's available.
 
@@ -40,7 +40,7 @@ Again three steps here. First confirm that you want to add custom domain to Netl
 
 After that Netlify will finally prompt out the newly assigned DNS nameservers that you should add to your domain registrars systems. At least for me this was a fairly easy task. My domain registrar is _NameCheap_ and their dashboard made it easy and quick to add the needed nameservers. 
 
-![NameCheap dashboard](./netlify-custom-domain2.png)
+![NameCheap dashboard](./netlify-custom-domain2.jpg)
 
 And volá! There you have it. After this you have your domain pointing to your project. And as always in the world of nameservers and dns thingies, results may not be visible right away. As it's said on Netlifys pages 
 
