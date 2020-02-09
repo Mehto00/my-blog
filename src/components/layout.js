@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Bio from "../components/bio"
 import BioFi from "../components/bioFi"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 import layoutStyles from './layout.module.css'
 
@@ -22,7 +22,7 @@ class Layout extends React.Component {
       location.pathname === enPath
     ) {
       header = (
-        <h1 className={layoutStyles.heading1} >
+        <h1 className={layoutStyles.heading1}>
           <Link
             style={{
               boxShadow: `none`,
@@ -32,7 +32,9 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
-            <span className={layoutStyles.subTitle}>{subtitle}</span>
+            <span className={layoutStyles.subTitle} >
+              {subtitle}
+            </span>
           </Link>
         </h1>
       )

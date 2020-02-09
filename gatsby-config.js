@@ -70,7 +70,6 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#eee`,
         display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
       },
     },
     {

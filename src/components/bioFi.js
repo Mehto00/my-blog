@@ -52,9 +52,9 @@ const BioFi = () => {
         <br />
         <span style={{ display: "block", paddingRight: "5rem" }}>
           Tarkempia tietoja työurastani <em>Curriculum vitae</em> :n muodossa voit lukea {" "}
-          <a href={`https://linkedin.com/in/${social.linkedin}`} target="_blank">Linkedin</a>{" "}
+          <a href={`https://linkedin.com/in/${social.linkedin}`} target="_blank" rel="noopener noreferrer">Linkedin</a>{" "}
           profiilistani.
-          <br />Koodipuolen jutut löytyvät puolestaan <a href={`https://github.com/${social.github}`} target="_blank">GitHubista</a>.
+          <br />Koodipuolen jutut löytyvät puolestaan <a href={`https://github.com/${social.github}`} target="_blank" rel="noopener noreferrer">GitHubista</a>.
         </span>
       </p>
     </div>
