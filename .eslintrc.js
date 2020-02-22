@@ -15,11 +15,11 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'markdown'],
   rules: {
     'react/jsx-filename-extension': [1, {extensions: ['.jsx']}],
     'react/jsx-one-expression-per-line': [2, {allow: 'none'}],
-    "react/jsx-first-prop-new-line": "multiline",
+    'react/jsx-first-prop-new-line': 'multiline',
     quotes: ['error', 'single'],
     'prettier/prettier': 'error',
     'import/extensions': ['error', 'ignorePackages', {js: 'never', jsx: 'never', ts: 'never', tsx: 'never'}],
