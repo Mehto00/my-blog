@@ -55,7 +55,6 @@ class Layout extends React.Component {
     }
     return (
       <div
-        className='uku'
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
