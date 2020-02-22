@@ -21,40 +21,48 @@ class Tags extends Component {
           <p style={{fontWeight: 'bold', margin: '0'}}>
             <em>{tagHeader}</em>
           </p>
-          {posts.map(({node}) => {
+          {posts.map(({node}, index) => {
             const title = node.frontmatter.title || node.fields.slug
+            let lang
+            // check from tags in which language the article is written and create a variable that ends up being passed into the article tag
+            if (node.frontmatter.tags.includes('fi')) {
+              lang = 'fi'
+            } else {
+              lang = 'en'
+            }
             return (
-              <article key={node.fields.slug}>
-                <header>
-                  <h3
-                    style={{
-                      marginBottom: rhythm(1 / 4),
-                    }}
-                  >
-                    <Link style={{boxShadow: `none`, color: `black`}} to={node.fields.slug}>
-                      {title}
-                    </Link>
-                  </h3>
-                  <small>{node.frontmatter.date}</small>
+              <section key={node.fields.slug} lang={lang} aria-labelledby={`title${index}`} aria-describedby={`description${index}`}>
+                <header lang={lang}>
+                <h3
+                  id={`title${index}`}
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link style={{boxShadow: `none`, color: `black`}} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <time pubdate="pubdate" datetime={node.frontmatter.date}><small>{node.frontmatter.date}</small></time>
                   <ul style={{listStyle: 'none', marginBottom: '1rem'}}>
                     tags:&nbsp;
                     {node.frontmatter.tags.map((item, index) => {
                       return (
                         <li key={index} style={{display: 'inline'}}>
-                          {item} /{' '}
+                          {item} <span role="none" aria-hidden="true">/</span>{' '}
                         </li>
                       )
                     })}
                   </ul>
                 </header>
-                <section>
+                <div role="none" id={`description${index}`} lang={lang}>
                   <p
                     dangerouslySetInnerHTML={{
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
-                </section>
-              </article>
+                </div>
+              </section>
             )
           })}
         </Layout>
