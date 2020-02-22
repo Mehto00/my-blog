@@ -64,7 +64,7 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
-        <section className={layoutStyles.languages}>
+        <section className={layoutStyles.languages} aria-label="language selection">
           <Link lang="en" style={{boxShadow: 'none', fontSize: '1.1rem'}} to={'/tags/en/'} role='heading' aria-level='2' aria-label="Blog Posts in English">
             <span role="none" aria-hidden='true'>
               🇬🇧
