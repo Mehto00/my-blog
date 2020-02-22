@@ -1,11 +1,11 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import {Link, graphql} from 'gatsby'
 
-import Bio from "../components/bio"
-import BioFi from "../components/bioFi"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Bio from '../components/bio'
+import BioFi from '../components/bioFi'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import {rhythm, scale} from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -13,13 +13,10 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteSubTitle = this.props.data.site.siteMetadata.subtitle
     const tags = post.frontmatter.tags
-    const { previous, next } = this.props.pageContext
+    const {previous, next} = this.props.pageContext
     return (
       <Layout location={this.props.location} title={siteTitle} subtitle={siteSubTitle}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
+        <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt} />
         <article>
           <header>
             <h1
@@ -34,24 +31,29 @@ class BlogPostTemplate extends React.Component {
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
-                margin: "1rem 0 0.5rem"
+                margin: '1rem 0 0.5rem',
               }}
             >
               {post.frontmatter.date}
             </p>
-            <ul style={{...scale(-1 / 5), listStyle: "none", marginBottom:"1rem"}}>tags:&nbsp; 
+            <ul style={{...scale(-1 / 5), listStyle: 'none', marginBottom: '1rem'}}>
+              tags:&nbsp;
               {post.frontmatter.tags.map((item, index) => {
-                return <li key={index} style={{ display: "inline" }}>{item} / </li>
+                return (
+                  <li key={index} style={{display: 'inline'}}>
+                    {item} /{' '}
+                  </li>
+                )
               })}
             </ul>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <section dangerouslySetInnerHTML={{__html: post.html}} />
           <hr
             style={{
               marginBottom: rhythm(1),
             }}
           />
-          <footer>{tags.indexOf("fi") ? <Bio /> : <BioFi />}</footer>
+          <footer>{tags.indexOf('fi') ? <Bio /> : <BioFi />}</footer>
         </article>
 
         <nav>
@@ -66,14 +68,14 @@ class BlogPostTemplate extends React.Component {
           >
             <li>
               {previous && (
-                <Link to={previous.fields.slug} rel="prev">
+                <Link to={previous.fields.slug} rel='prev'>
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.fields.slug} rel="next">
+                <Link to={next.fields.slug} rel='next'>
                   {next.frontmatter.title} →
                 </Link>
               )}
@@ -96,8 +98,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(
-      fields: { slug: { eq: $slug } } ) {
+    markdownRemark(fields: {slug: {eq: $slug}}) {
       id
       excerpt(pruneLength: 160)
       html
