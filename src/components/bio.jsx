@@ -29,7 +29,7 @@ const Bio = () => {
 
   const {social} = data.site.siteMetadata
   return (
-    <section className={bioStyles.wrapper}>
+    <section className={bioStyles.wrapper} lang="en" role="complementary" aria-label="Information about the author">
       <img src={meika} alt="" className={bioStyles.avatar} />
       <div>
         <p>
@@ -40,7 +40,7 @@ const Bio = () => {
           learned how to code. After graduating at 2018 I started earning my living as a developer.
         </p>
         <p>Nowdays I do mostly all things frond end with frameworks, technologies and thingies like React, Redux, Gatsby and GraphQL.</p>
-        <span className={bioStyles.indentParagraph}>
+        <span role="none" className={bioStyles.indentParagraph}>
           For more <em>Curriculum vitae</em>:ish information check out my{' '}
           <a href={`https://linkedin.com/in/${social.linkedin}`} target='_blank' rel='noopener noreferrer'>
           Linkedin

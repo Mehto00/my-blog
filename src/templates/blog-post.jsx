@@ -14,10 +14,17 @@ class BlogPostTemplate extends React.Component {
     const siteSubTitle = this.props.data.site.siteMetadata.subtitle
     const tags = post.frontmatter.tags
     const {previous, next} = this.props.pageContext
+    let lang
+    // check from tags in which language the article is written and create a variable that ends up being passed into the article tag
+    if (post.frontmatter.tags.includes('fi')) {
+      lang = 'fi'
+    } else {
+      lang = 'en'
+    }
     return (
       <Layout location={this.props.location} title={siteTitle} subtitle={siteSubTitle}>
         <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt} />
-        <article>
+        <article lang={lang}>
           <header>
             <h1
               style={{

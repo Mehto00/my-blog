@@ -29,7 +29,7 @@ const BioFi = () => {
 
   const {social} = data.site.siteMetadata
   return (
-    <section className={bioStyles.wrapper}>
+    <section className={bioStyles.wrapper} lang='fi' role='complementary' aria-label='Tietoa kirjoittajasta'>
       <img src={meika} alt="" className={`${bioStyles.avatar} ${bioStyles.avatarFi}`} />
       <div>
         <p>
@@ -41,7 +41,7 @@ const BioFi = () => {
           ansaita elantoni ohjelmistokehittäjänä.
         </p>
         <p>Tänä päivänä työskentelen Frond Endin parissa avainsanoina teknologiat kuten React, Redux, Gatsby ja GraphQL.</p>
-        <span style={{display: 'block', paddingRight: '5rem'}}>
+        <span role="none" style={{display: 'block', paddingRight: '5rem'}}>
           Tarkempia tietoja työurastani <em>Curriculum vitae</em> :n muodossa voit lukea{' '}
           <a href={`https://linkedin.com/in/${social.linkedin}`} target='_blank' rel='noopener noreferrer'>
             Linkedin

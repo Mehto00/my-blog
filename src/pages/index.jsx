@@ -11,14 +11,24 @@ class BlogIndex extends React.Component {
     const siteSubTitle = data.site.siteMetadata.subtitle
     const posts = data.allMarkdownRemark.edges
 
+
     return (
       <Layout location={this.props.location} title={siteTitle} subtitle={siteSubTitle}>
-        {posts.map(({node}) => {
+        {posts.map(({node}, index) => {
           const title = node.frontmatter.title || node.fields.slug
+          const description = node.frontmatter.description
+          let lang
+          // check from tags in which language the article is written and create a variable that ends up being passed into the article tag
+          if (node.frontmatter.tags.includes('fi')) {
+            lang = 'fi'
+          } else {
+            lang = 'en'
+          }
           return (
-            <article key={node.fields.slug}>
-              <header>
+            <section key={node.fields.slug} lang={lang} aria-labelledby={`title${index}`} aria-describedby={`description${index}`}>
+              <header lang={lang}>
                 <h3
+                  id={`title${index}`}
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
@@ -27,16 +37,16 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <time pubdate="pubdate" datetime={node.frontmatter.date}><small>{node.frontmatter.date}</small></time>
               </header>
-              <section>
+              <div role="none" id={`description${index}`} lang={lang}>
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
-              </section>
-            </article>
+              </div>
+            </section>
           )
         })}
       </Layout>
@@ -66,6 +76,7 @@ export const pageQuery = graphql`
             title
             description
             published
+            tags
           }
         }
       }
