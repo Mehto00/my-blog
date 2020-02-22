@@ -16,7 +16,6 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle} subtitle={siteSubTitle}>
         {posts.map(({node}, index) => {
           const title = node.frontmatter.title || node.fields.slug
-          const description = node.frontmatter.description
           let lang
           // check from tags in which language the article is written and create a variable that ends up being passed into the article tag
           if (node.frontmatter.tags.includes('fi')) {
