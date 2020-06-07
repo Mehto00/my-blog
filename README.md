@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.mikkometso.netlify.com">
-    <img alt="It's me" src="./content/assets/meika.jpg" width="60" style="border-radius: 100%; margin-top: 25px" />
+    <img alt="It's me" src="./src/content/assets/meika.jpg" width="60" style="border-radius: 100%; margin-top: 25px" />
   </a>
 </p>
 <h1 align="center">
