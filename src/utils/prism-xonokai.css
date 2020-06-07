@@ -17,12 +17,12 @@ pre[class*="language-"] {
     word-wrap: normal;
     font-family: Menlo, Monaco, "Courier New", monospace;
     font-size: 14px;
-    color: #76d9e6;
+    color: #292929;
     text-shadow: none;
 }
 pre[class*="language-"],
 :not(pre)>code[class*="language-"] {
-    background: #2a2a2a;
+    background: #eae9e9;
 }
 pre[class*="language-"] {
     padding: 15px;
@@ -40,10 +40,8 @@ pre[class*="language-"] code {
 }
 
 :not(pre)>code[class*="language-"] {
-    padding: 0.15em 0.2em 0.05em;
+    padding: 0.25em 0.4em;
     border-radius: .3em;
-    border: 0.13em solid #7a6652;
-    box-shadow: 1px 1px 0.3em -0.1em #000 inset;
 }
 .token.namespace {
     opacity: .7;
