@@ -23,13 +23,13 @@ Your branch is ahead of 'origin/development' by 22 commit.
 
 ![elmo-shrug-iguess-imessed-up-gif](./messedUp.gif)
 
-I could continue by writing about `git rebase` _(that I went and studied a lot)_ and how it basically reapplies all the commits from your branch to the tip of another branch. <a href="https://www.daolf.com/posts/git-series-part-2/#the-base-of-the-rebase" target="_blank">[1]</a> but that's for another post. I'm trying to keep this short and that's why this should be all about `git reflog`
+I could continue by writing about `git rebase` _(that I went and studied a lot)_ and how it basically reapplies all the commits from your branch to the tip of another branch. <a href="https://www.daolf.com/posts/git-series-part-2/#the-base-of-the-rebase" target="_blank" rel="noopener noreferrer" >[1]</a> but that's for another post. I'm trying to keep this short and that's why this should be all about `git reflog`
 
 ## Reference logs to the rescue
 
 Git docs states that:
 
->Reference logs, or "reflogs", record when the tips of branches and other references were updated in the local repository. Reflogs are useful in various Git commands, to specify the old value of a reference. <a href="https://git-scm.com/docs/git-rebase#_description" target="_blank">[2]</a>
+>Reference logs, or "reflogs", record when the tips of branches and other references were updated in the local repository. Reflogs are useful in various Git commands, to specify the old value of a reference. <a href="https://git-scm.com/docs/git-rebase#_description" target="_blank" rel="noopener noreferrer" >[2]</a>
 
 So basically _(at least for me)_ `git reflog` is somewhat similar to `git log` as in reflog gives me visual hint and point of reference of what have I done as Git log does with the commits. At least for me this is tons of help. 
 
