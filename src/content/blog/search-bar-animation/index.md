@@ -21,4 +21,4 @@ This time I decided to recreate this simple and in my oppinion beautiful way to 
   (<a href='https://codepen.io/Mehto00'>@Mehto00</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-All of my CodePens can be found <a href="https://codepen.io/Mehto00/pens/showcase" target="_blank">here</a>.
+All of my CodePens can be found <a href="https://codepen.io/Mehto00/pens/showcase" target="_blank" rel="noopener noreferrer" >here</a>.

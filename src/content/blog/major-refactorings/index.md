@@ -18,5 +18,5 @@ At work we started a new project on January and I have being doing some config t
 
 After adding eslint I end up taking a closer look to accessibility issues as well and did some refactoring to improve HTML semantics.
 
-All the refactoring changes can be seen on Github at the blogs repository as commits that were made on Feb 22, 2020 <a href="https://github.com/Mehto00/my-blog/commits/master?since=2020-02-22&until=2020-02-23" target="_blank">here</a>. And of course the better screen reader experience is (at least on mac) only on few keyboard strokes away behind `cmd+f5`
+All the refactoring changes can be seen on Github at the blogs repository as commits that were made on Feb 22, 2020 <a href="https://github.com/Mehto00/my-blog/commits/master?since=2020-02-22&until=2020-02-23" target="_blank" rel="noopener noreferrer" >here</a>. And of course the better screen reader experience is (at least on mac) only on few keyboard strokes away behind `cmd+f5`
 .

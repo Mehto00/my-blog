@@ -24,9 +24,9 @@ On Domain management there's a **Add custom domain** button. Clicking it start's
 
 ![Add a custom domain to your site](./netlify-custom-domain3.jpg)
 
-After this Netlify will ask if you are the owner and by clicking **Yes, add domain**. After that next to the newly added custom domain shows a warning symbol with text _Check your DNS configuration_. You can click it and get prompted a info screen that provides help how to set up the DNS configurations so that the domain gets connected. I found really usefull info about the setup from Netlifys own documents <a href="https://www.netlify.com/docs/custom-domains/" target="_blank">here</a> and from this awesome <a href="https://www.youtube.com/watch?v=Q9giWrfIJKk" target="_blank">youtube-video</a> by **Chris Stayte**.
+After this Netlify will ask if you are the owner and by clicking **Yes, add domain**. After that next to the newly added custom domain shows a warning symbol with text _Check your DNS configuration_. You can click it and get prompted a info screen that provides help how to set up the DNS configurations so that the domain gets connected. I found really usefull info about the setup from Netlifys own documents <a href="https://www.netlify.com/docs/custom-domains/" target="_blank" rel="noopener noreferrer" >here</a> and from this awesome <a href="https://www.youtube.com/watch?v=Q9giWrfIJKk" target="_blank" rel="noopener noreferrer" >youtube-video</a> by **Chris Stayte**.
 
-The video also descripes how to easily set up a **https** to your site with free, automatic TLS certificates provided by awesome <a href="https://letsencrypt.org/" target="_blank">Let’s Encrypt</a>.
+The video also descripes how to easily set up a **https** to your site with free, automatic TLS certificates provided by awesome <a href="https://letsencrypt.org/" target="_blank" rel="noopener noreferrer" >Let’s Encrypt</a>.
 
 But the easiest way to set up the nameservers for me was to use Netlify DNS instead.
 
@@ -44,11 +44,11 @@ After that Netlify will finally prompt out the newly assigned DNS nameservers th
 
 And volá! There you have it. After this you have your domain pointing to your project. And as always in the world of nameservers and dns thingies, results may not be visible right away. As it's said on Netlifys pages 
 
-_Depending on your DNS provider, changes to DNS records can take several hours to propagate and take effect for the entire internet._ <a href="https://www.netlify.com/docs/custom-domains/#automatic" target="_blank">[1]</a>  
+_Depending on your DNS provider, changes to DNS records can take several hours to propagate and take effect for the entire internet._ <a href="https://www.netlify.com/docs/custom-domains/#automatic" target="_blank" rel="noopener noreferrer" >[1]</a>  
 
 Also it's worth mentioning that if your planning to use your domain for other services as well like emails you will need more additional settings to the configuration
 
-_We are happy to support DNS for all records in your domain including ones that don’t point to our service; if you’re using your domain for other services, like email, you will need to add all other records like MX, etc, in this step._ <a href="https://www.netlify.com/docs/custom-domains/#automatic" target="_blank">[2]</a>  
+_We are happy to support DNS for all records in your domain including ones that don’t point to our service; if you’re using your domain for other services, like email, you will need to add all other records like MX, etc, in this step._ <a href="https://www.netlify.com/docs/custom-domains/#automatic" target="_blank" rel="noopener noreferrer" >[2]</a>  
 
 
 _edit 16.10: Added mention about the https on youtube-video_

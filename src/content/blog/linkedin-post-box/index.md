@@ -15,7 +15,7 @@ Technically because I work with Typescript, ReactJs and styled-components what I
 So I’m always trying to improve these cornerstone skills for developer and these tiny doodles are all for that. Basic leg work that helps me become a better coder in the long run.
 
 I started this series so that I can create a easy template for me to publish some doodles that I'm used writing now and then.
-The code itself is written to awesome <a href="https://codepen.io/" target="_blank">CodePen</a> and as you can see embeded to posts like below.
+The code itself is written to awesome <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" >CodePen</a> and as you can see embeded to posts like below.
 
 Here's a reference screenshot that I snapped from LinkedIn feed. Note that this is not a actual screenshot about some post but an edit I photoshopped to serve this example.
 
@@ -29,4 +29,4 @@ And here's the embedded CodePen that I created
   (<a href='https://codepen.io/Mehto00'>@Mehto00</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-All of my CodePens can be found <a href="https://codepen.io/Mehto00/pens/showcase" target="_blank">here</a>.
+All of my CodePens can be found <a href="https://codepen.io/Mehto00/pens/showcase" target="_blank" rel="noopener noreferrer" >here</a>.
