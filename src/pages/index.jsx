@@ -36,7 +36,7 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <time pubdate="pubdate" datetime={node.frontmatter.date}><small>{node.frontmatter.date}</small></time>
+                <time pubdate="pubdate" dateTime={node.frontmatter.date}><small>{node.frontmatter.date}</small></time>
               </header>
               <div role="none" id={`description${index}`} lang={lang}>
                 <p
