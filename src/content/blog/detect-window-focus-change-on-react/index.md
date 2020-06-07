@@ -3,7 +3,7 @@ title: "Detect window focus change using React"
 date: "2020-06-07"
 description: "Hello World"
 tags: ["en, React"]
-published: true
+published: false
 ---
 
 I'm contributing one of my friends chat app project and last week built a toggle that detects if browser window looses or gains its focus. From that it was quite easy to add some additional conditionals that decides what is to be rendered on tabs title. So if the window has lost it's focus check whether there's new messages from others and if so render a notification emoji etc. to the title.
