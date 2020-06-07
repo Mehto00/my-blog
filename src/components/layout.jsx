@@ -41,6 +41,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               color: `inherit`,
+              textDecoration: 'none'
             }}
             to={`/`}
           >
